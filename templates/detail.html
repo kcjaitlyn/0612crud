@@ -37,7 +37,7 @@
     <p> {{ post.body }}</p>
     
     <!-- 홈으로 버튼태그 -->
-    <button type='button' class='btn' onclick='location.href="{% url "main" post.pk %}"'>홈으로</button>
+    <button type='button' class='btn' onclick='location.href="{% url "main" %}"'>홈으로</button>
     <!-- 수정하기 버튼태그 -->
     <button type='button' class='btn btn-info btn-sm' onclick='location.href="{% url "update" post.pk %}"'>수정하기</button>
     <!-- 삭제하기 버튼태그 -->
